@@ -1,3 +1,39 @@
-baseURL = "http://example.org/"
+baseURL = "http://localhost/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "hugo-goa"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Fidel Aquino"
+title = "Fidel Aquino"
+
+## Site Settings
+[params]
+author = "Fidel Aquino"
+intro = "Web Developer"
+description = "Trabajo en [Consucorp S.A de C.V.](http://www.consucorp.com/) como Responsable Técnico. Antes en @GrupoJobo y @EPdeMexico."
+authorimage = "avatar.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Web Developer"
+keywords = "web,developer,devops,php,aws"
+
+## Social Accounts
+[params.social]
+github = "jashk"
+instagram = "_jashk"
+linkedin = "fidelaquino"
+twitter = "_jashk"
+stackoverflow = "1118342"
+email = "fidel.aquino.dev@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Fidel Aquino" 
+poweredby = true
+hightlightjs = true
+
